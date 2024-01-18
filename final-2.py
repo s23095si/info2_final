@@ -78,10 +78,12 @@ class App:
         pyxel.cls(0)
         pyxel.blt(0,0,1,0,0,160,120,0)
         if self.GAMEOVER:
+         pyxel.text(70,54,'score:'+str(self.score),2)
  
             MESSAGE =\
 """
      GAMEOVER
+
  
 PUSH LEFT RESTART
 """
